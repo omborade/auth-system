@@ -1,4 +1,22 @@
-# 🔐 Authentication & Authorization System
+## Why I Built This
+
+I built this project to deeply understand how real-world authentication systems work beyond basic login/signup features.
+
+Instead of just implementing JWT, I focused on:
+- Secure password storage using bcrypt
+- Role-Based Access Control (RBAC) with permissions
+- Token invalidation using Redis (logout handling)
+- Async backend architecture using FastAPI
+
+During development, I faced real-world issues like:
+- Python version compatibility (3.13 → fixed using 3.11)
+- Async SQLAlchemy errors (MissingGreenlet)
+- Database connection failures and debugging
+
+This project helped me understand how production-level backend systems are designed and debugged.
+
+
+# Authentication & Authorization System
 
 A production-grade backend auth system built with **FastAPI**, **PostgreSQL**, **Redis**, and **JWT**.
 
